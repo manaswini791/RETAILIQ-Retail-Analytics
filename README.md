@@ -1,104 +1,90 @@
-RETAILIQ – Retail Business Intelligence & Analytics
+# RETAILIQ – Retail Business Intelligence & Analytics
 
-An End-to-End Retail Sales and Profitability Analysis Project
+### An End-to-End Retail Sales and Profitability Analysis Project
 
-Project Overview
+## Project Overview
+RETAILIQ transforms raw retail sales data into meaningful business insights using Excel, Python, SQL and Power BI.
 
-RETAILIQ is a retail business analytics project designed to explore sales performance, profitability, product categories, regional trends and discount strategies using a retail sales dataset.
+## Business Problem
+The project explores sales performance, profitability, customer behaviour, product categories, regional trends and discount strategies.
 
-The project transforms raw retail data into meaningful business insights through spreadsheet-based analysis, Pivot Tables, KPI calculations and visual dashboards.
+## Tools & Technologies
+- Excel / WPS Spreadsheet
+- Python, Pandas and NumPy
+- Matplotlib
+- SQL and SQLite
+- Power BI and DAX
+- GitHub
 
-Business Problem
+## Dataset
+**Dataset:** Sample Superstore
+- 10,194 order records
+- Customer and product information
+- Sales, quantity, discount and profit
 
-Retail businesses need to understand which regions, products and categories generate the most revenue and profit. They also need to identify loss-making products and evaluate how discount strategies affect profitability.
+## Project Workflow
+### 1. Excel Analysis
+- Data inspection and KPI calculations
+- Pivot Tables and charts
+- Regional, category and monthly analysis
+- Excel dashboard
 
-RETAILIQ addresses these questions through structured data analysis and business reporting.
+### 2. Python Analysis
+- Data cleaning and preparation
+- Exploratory Data Analysis
+- Pandas, NumPy and Matplotlib
 
-Tools Used
+### 3. SQL Analysis
+- Retail data querying
+- Aggregations and grouping
+- Regional, category, customer and product analysis
 
-WPS Office / Spreadsheet Analysis
+### 4. Power BI Dashboard
+- Executive Overview
+- Sales & Profitability
+- Customer & Product Insights
+- Intelligence Command Centre
 
-Pivot Tables
+## Key Performance Indicators
+| Metric | Value |
+|---|---:|
+| Total Sales | 2,326,534.35 |
+| Total Profit | 292,296.81 |
+| Unique Orders | 5,111 |
+| Unique Customers | 804 |
+| Unique Products | 1,862 |
+| Units Sold | 38,654 |
+| Profit Margin | 12.56% |
 
-Charts and Data Visualization
+## Key Business Insights
+- The West region recorded the highest sales and profit.
+- Technology was the strongest-performing category.
+- Furniture generated comparatively low profit.
+- Some products generated substantial negative profit.
+- Higher discount levels were associated with negative aggregate profitability in certain groups.
 
-GitHub for Project Documentation
+## Business Recommendations
+- Study successful sales strategies in the West region.
+- Focus on high-performing Technology products.
+- Review pricing and discount policies for loss-making products.
+- Monitor product-level profitability.
 
-Dataset
+## Repository Structure
+- Excel_Analysis/
+- Python_Analysis/Python_Charts/
+- SQL_Analysis/
+- PowerBI_Dashboard/
+- Business_Insights/
 
-The project uses the Sample Superstore retail dataset.
+## Project Deliverables
+- Excel analysis workbook
+- Python notebook and charts
+- SQL analysis queries
+- Four Power BI dashboard versions
+- Dashboard PDF export
+- Business insights report
 
-The dataset includes information about:
+## Conclusion
+RETAILIQ demonstrates an end-to-end data analytics workflow, from data preparation to business intelligence reporting.
 
-Orders and shipping dates
-
-Customers and customer segments
-
-Regions and geographical locations
-
-Product categories and sub-categories
-
-Sales, quantity, discount and profit
-
-Analysis Performed
-
-Regional Analysis – Compared sales and profit across Central, East, South and West regions.
-
-Category Analysis – Evaluated Furniture, Office Supplies and Technology.
-
-Monthly Analysis – Examined monthly sales and profit trends across years.
-
-Top 10 Profit Analysis – Identified the highest-profit products.
-
-Loss Analysis – Investigated products generating negative profit.
-
-Discount Analysis – Examined the relationship between discount levels and profitability.
-
-Key Performance Indicators
-
-Total Sales: 2,326,534.35
-
-Total Profit: 292,296.81
-
-Total Order Lines: 10,188
-
-Unique Customers: 654 (subject to further validation)
-
-Profit Margin: 12.6%
-
-Key Business Insights
-
-The West region recorded the highest sales and profit.
-
-Technology was the strongest-performing product category.
-
-Tables and Bookcases showed negative profit.
-
-Several higher discount levels were associated with negative aggregate profit.
-
-The analysis highlights opportunities to improve discount policies and product profitability.
-
-Business Recommendations
-
-Study successful sales strategies in the West region.
-
-Focus on high-performing Technology products.
-
-Review pricing and discount policies for loss-making sub-categories.
-
-Investigate products with consistently negative profit.
-
-Monitor profitability before approving high-discount promotions.
-
-Project Deliverables
-
-RETAILIQ_Analysis.xlsx – Spreadsheet analysis, Pivot Tables and Executive Dashboard.
-
-Business_Insights.pdf – Business findings and recommendations.
-
-Conclusion
-
-RETAILIQ demonstrates how spreadsheet-based data analysis can transform raw retail data into actionable business insights. The project applies data organisation, KPI calculations, Pivot Tables and visualization to support better retail business decisions.
-
-Project: RETAILIQ
-Focus Area: Data Analytics | Business Intelligence | Retail Analytics
+**Focus Area:** Data Analytics | Business Intelligence | Retail Analytics
